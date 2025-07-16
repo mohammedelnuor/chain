@@ -1,0 +1,37 @@
+.slite-1{
+    background-image: url("/images/slider-left-dec.png");
+    background-repeat: no-repeat;
+    
+
+}
+
+.s-2{
+    background-image: url("../images/services-11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p1{
+    background-image: url("../images/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.slite-5{
+    background-image: url("../images/services-left-dec.png");
+    background-repeat: no-repeat;
+}
+
+.cart-1{
+    background-image: url("../images/pro-table-top.png");
+     background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.slite-5{
+    background-image: url("..//images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

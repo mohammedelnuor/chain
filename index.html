@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Chain</title>
+    <link rel="stylesheet" href="./css/master.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+
+   
+  <!-- نقاط التحميل -->
+
+
+<div class="slite-1">
+  <!-- start-nav -->
+  <nav id="navbar" class="border-b-2 border-black md:h-20 items-center m-auto">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div class="relative flex h-16 items-center justify-between">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-black font-bold cursor-pointer hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="absolute -inset-0.5"></span>
+            <span class="sr-only">Open main menu</span>
+            <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="flex shrink-0 justify-center items-center ml-40 md:ml-0 md:justify-start">
+          <div class="flex shrink-0 items-start md:justify-start">
+            <img class="h-9 w-auto" src="./images/logo.png" alt="Your Company" />
+          </div>
+        </div>
+
+        <div class="flex flex-1 items-center justify-center sm:items-stretch">
+          <div class="hidden sm:ml-6 sm:block md:justify-center">
+            <div class="link flex space-x-4">
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium" data-section=".home">Home</a>
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium" data-section=".slite-2">Services</a>
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium" data-section=".slite-3">About</a>
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium" data-section=".slite-4">Pricing</a>
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium" data-section=".slite-5">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <button type="button" class="relative md:w-40 w-28 rounded-full bg-blue-600 p-1 text-white cursor-pointer hover:bg-blue-700 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
+            Sign In Now
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="sm:hidden" id="mobile-menu">
+      <div class="space-y-1 px-2 pt-2 pb-3">
+        <a href="#" data-section=".home" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white">Home</a>
+        <a href="#" data-section=".slite-2" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Services</a>
+        <a href="#" data-section=".slite-3" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
+        <a href="#" data-section=".slite-4" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Pricing</a>
+        <a href="#" data-section=".slite-5" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav -->
+
+  <!-- start-home -->
+  <div id="home" class="home">
+    <div class="container m-auto">
+      <div class="flex md:justify-center flex-col-reverse md:flex-row mt-16 md:mt-64">
+        <div id="home-text" class="md:w-1/3 w-full p-3 md:mt-16">
+          <h1 class="text-2xl md:text-5xl font-bold mb-5">Get The Latest App From App Stores</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus perferendis laudantium, temporibus repellat enim quos quibusdam. Accusamus.</p>
+          <div>
+            <button class="mt-5 mr-3 bg-blue-600 text-white rounded-md px-4 py-2 hover:bg-blue-700">Free Quote</button>
+            <button class="mt-5 bg-blue-600 text-white rounded-md px-4 py-2 hover:bg-blue-700">Free Quote</button>
+          </div>
+        </div>
+        <div id="home-image" class="w-full md:w-1/3 p-3">
+          <img src="./images/slider-dec.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!-- end slite-1 -->
+
+   <!-- start slite-2 -->
+    <div class="slite-2 mt-40">
+      <div class="container m-auto">
+
+    <div id="services-section" class="s-2 flex flex-col justify-center items-center mt-16 p-1">
+  <h1 class="text-2xl text-center md:text-start font-bold">
+    Amazing <span class="text-blue-700">Services & Features</span> for you
+  </h1>
+  <p class="w-fit md:w-1/3 text-center p-2 mt-6 text-gray-400">
+    You are not allowed to redistribute this template ZIP file on any other website. You can use it for your personal or commercial projects, but you cannot share the original files.
+  </p>
+</div>
+
+
+        <div class="flex flex-col justify-center items-center gap-x-6 mt-16 md:flex-row">
+
+          <div class="s1 w-fit  bg-white shadow-md p-5 m-5 md:w-1/5 rounded-3xl h-80   ">
+            <img class="mt-6" src="./images/service-icon-01.png" alt="">
+          <h1 class="text-xl font-bold mt-8">App Maintenance</h1>
+          <p class="my-7">You are not allowed to redistribute this template ZIP file on any other website.</p>
+          <span class="text-blue-600 font-bold cursor-pointer">Read More </span>
+          </div>
+
+            <div class="s1 bg-white shadow-md p-5 w-fit m-5  md:w-1/5  rounded-3xlh-80 ">
+            <img class="mt-6" src="./images/service-icon-02.png" alt="">
+          <h1 class="text-xl font-bold mt-8">Rocket Speed of App</h1>
+          <p class="my-7">You are not allowed to redistribute this template ZIP file on any other website.</p>
+          <span class="text-blue-600 font-bold cursor-pointer">Read More </span>
+          </div>
+
+            <div class="s1 bg-white shadow-md p-5 m-5 w-fit md:w-1/5  rounded-3xl h-80 ">
+            <img class="mt-6" src="./images/service-icon-03.png" alt="">
+          <h1 class="text-xl font-bold mt-8">Multi Workflow Idea</h1>
+          <p class="my-7">You are not allowed to redistribute this template ZIP file on any other website.</p>
+          <span class="text-blue-600 font-bold cursor-pointer">Read More </span>
+          </div>
+
+            <div class="s1 bg-white shadow-md p-5 w-fit m-5 md:w-1/5  rounded-3xl h-80 ">
+            <img class="mt-6" src="./images/service-icon-04.png" alt="">
+          <h1 class="text-xl font-bold mt-8">24/7 Help & Support</h1>
+          <p class="my-7">You are not allowed to redistribute this template ZIP file on any other website.</p>
+          <span class="text-blue-600 font-bold cursor-pointer">Read More </span>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+   <!-- end slite-2 -->
+
+
+
+   <!-- start slite-3 -->
+    <div class="slite-3 mt-32 md:mt-64">
+      <div class="container m-auto">
+        <div class="flex flex-col-reverse md:flex-row justify-center items-center gap-x-6 mt-16">
+
+          
+
+          <div class="w-fit md:w-1/2 p-4 m-4">
+            <h1 class="text-4xl font-bold md:-mt-36 mb-14">About <span class="text-blue-600">What We Do</span> & Who We Are</h1>
+            <p class="text-slate-500 mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+            <div class="grid grid-cols-1 justify-center text-center md:grid-cols-2 gap-6">
+
+              <div class="p-3 m-2 bg-white shadow-md rounded-lg">
+                <h2 class="text-xl font-bold">Maintance Problems</h2>
+                <p class="text-slate-500">Lorem Ipsum Text</p>
+              </div>
+
+              <div class="p-3 m-2 bg-white shadow-md rounded-lg">
+                <h2 class="text-xl font-bold">24/7 Support & Help</h2>
+                <p class="text-slate-500">Lorem Ipsum Text</p>
+              </div>
+
+              <div class="p-3 m-2 bg-white shadow-md rounded-lg">
+                <h2 class="text-xl font-bold">Fixing Issues About</h2>
+                <p class="text-slate-500">Lorem Ipsum Text</p>
+              </div>
+
+              <div class="p-3 m-2 bg-white shadow-md rounded-lg">
+                <h2 class="text-xl font-bold">Co. Development</h2>
+                <p class="text-slate-500">Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <p class="text-slate-500 m-3 p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore adipiscing magna.</p>
+            <p class="text-slate-500 m-3 p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore adipiscing magna.</p>
+            <button class="bg-blue-600 flex justify-center items-center md:m-6 m-auto text-white rounded-md  cursor-pointer p-4 py-2 hover:bg-blue-700 ">Start 14-Day Free Trial</button>
+          </div>
+
+          <div class="p1 w-fit md:w-1/2 p-4 m-4">
+            <img src="./images/about-right-dec.png" alt="">
+          </div>
+
+         
+
+        </div>
+      </div>
+    </div>
+
+   <!-- end slite-4 -->
+
+
+   <div>
+
+   </div>
+   
+
+   <!-- start slite-4 -->
+    <div class="slite-4 mt-32 md:mt-64">
+      <div class="container m-auto">
+
+        <div class="p-5 text-center ">
+          <h1 class="font-bold text-2xl ">We Have The Best Pre-Order Prices You Can Get</h1>
+          <p class="my-5 text-gray-400 md:w-1/3 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+        </div>
+        <div class="flex flex-col  md:flex-row justify-center items-center gap-x-6 mt-16">
+
+          <div class="cart-1 w-72 p-5 m-5 md:w-1/4 p-4m-4 rounded-lg">
+             <span class="p-3 mt-8 text-3xl font-bold">$12</span>
+          <div class="grid grid-cols-1 justify-center text-center items-center gap-3">
+            <h1 class="font-bold mt-4">Standard Plan App</h1>
+            <img class="w-56 m-auto" src="./images/slider-dec.png" alt="">
+            <p class="text-blue-600 mt-11" >Lorem Ipsum Dolores</p>
+            <p class="text-blue-600">20 TB of Storage</p>
+            <p><s>Premium Add-Ons</s></p>
+            <p><s>Premium Add-Ons</s></p>
+            <p><s>Fastest Network</s></p>
+            <p><s>More Options</s></p>
+        
+          
+            <button class="border border-blue-500 bg-white w-52 flex justify-center m-auto mb-4 cursor-pointer text-blue-500 px-4 py-2 rounded hover:bg-blue-50 transition"> Purchase This Plan Now</button>
+          </div>
+          </div>
+
+
+          <div class="cart-1 w-72 p-5 m-5 md:w-1/4 rounded-lg">
+             <span class="p-3 mt-8 text-3xl font-bold">$12</span>
+          <div class="grid grid-cols-1 justify-center text-center items-center gap-3">
+            <h1 class="font-bold mt-4">Standard Plan App</h1>
+            <img class="w-56 m-auto" src="./images/slider-dec.png" alt="">
+            <p class="text-blue-600 mt-11" >Lorem Ipsum Dolores</p>
+            <p class="text-blue-600">20 TB of Storage</p>
+            <p><s>Premium Add-Ons</s></p>
+            <p><s>Premium Add-Ons</s></p>
+            <p><s>Fastest Network</s></p>
+            <p><s>More Options</s></p>
+        
+          
+            <button class="border border-blue-500 bg-white w-52 flex justify-center m-auto mb-4 cursor-pointer text-blue-500 px-4 py-2 rounded hover:bg-blue-50 transition"> Purchase This Plan Now</button>
+          </div>
+          </div>
+
+
+          <div class="cart-1 w-72 p-5 m-5 md:w-1/4 p-4m-4 rounded-lg">
+             <span class="p-3 mt-8 text-3xl font-bold">$12</span>
+          <div class="grid grid-cols-1 justify-center text-center items-center gap-3">
+            <h1 class="font-bold mt-4">Standard Plan App</h1>
+            <img class="w-56 m-auto" src="./images/slider-dec.png" alt="">
+            <p class="text-blue-600 mt-11" >Lorem Ipsum Dolores</p>
+            <p class="text-blue-600">20 TB of Storage</p>
+            <p><s>Premium Add-Ons</s></p>
+            <p><s>Premium Add-Ons</s></p>
+            <p><s>Fastest Network</s></p>
+            <p><s>More Options</s></p>
+        
+          
+            <button class="border border-blue-500 bg-white w-52 flex justify-center m-auto mb-4 cursor-pointer text-blue-500 px-4 py-2 rounded hover:bg-blue-50 transition"> Purchase This Plan Now</button>
+          </div>
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+   <!-- end slite-5 -->
+
+
+   <!-- srart-slite-5 -->
+
+   <div class="slite-5 md:mt-36  text-white">
+    <div class="container m-auto ">
+      <footer class=" text-white py-12  ">
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 md:mt-80 mt-96">
+    
+    
+    <div class="mt-96 md:mt-0">
+      <img class="mb-3" src="./images/white-logo.png" alt="">
+      <p class="text-sm ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+      </p>
+    </div>
+
+  
+    <div>
+      <h3 class="text-lg font-semibold mb-4  md:mt-0">About Us</h3>
+      <ul class="space-y-2 text-sm text-gray-300">
+        <li><a href="#" class="hover:text-white transition">Home</a></li>
+        <li><a href="#" class="hover:text-white transition">Services</a></li>
+        <li><a href="#" class="hover:text-white transition">About</a></li>
+        <li><a href="#" class="hover:text-white transition">Testimonials</a></li>
+        <li><a href="#" class="hover:text-white transition">Pricing</a></li>
+      </ul>
+    </div>
+
+    <!-- Useful Links -->
+    <div>
+      <h3 class="text-lg font-semibold mb-4">Useful Links</h3>
+      <ul class="space-y-2 text-sm text-gray-300">
+        <li><a href="#" class="hover:text-white transition">Free Apps</a></li>
+        <li><a href="#" class="hover:text-white transition">App Engine</a></li>
+        <li><a href="#" class="hover:text-white transition">Programming</a></li>
+        <li><a href="#" class="hover:text-white transition">Development</a></li>
+      </ul>
+    </div>
+
+    <!-- Newsletter & Contact Info -->
+    <div>
+      <h3 class="text-lg font-semibold mb-4">Join Our Mailing List</h3>
+      <form class="flex flex-col space-y-3">
+        <input type="email" placeholder="Email Address..." class="px-3 py-2  ">
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white py-2 rounded transition">Subscribe Now</button>
+      </form>
+      <hr class="my-4 border-gray-700">
+      <p class="text-sm "><strong>Address:</strong> Khartoum, Sudan – South District</p>
+      <p class="text-sm "><strong>Phone:</strong>  +249-912345678</p>
+      <p class="text-sm "><strong>Email:</strong> chain9@company.co</p>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+ <div>
+          <p class="text-center  mt-10">© 2025 Mohamed Alnour — Front-End Developer & Web Developer </p>
+        </div>
+</footer>
+
+
+        
+      </div>
+
+    </div>
+    
+   
+
+   <!-- end-slite-6 -->
+
+   
+          
+
+   
+
+    <script src="./js/main.js"></script>
+ 
+  </body>
